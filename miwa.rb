@@ -12,14 +12,16 @@ class Indicatory
         puts 'Виберіть одну з '
     end 
 end
+
 class Electric
 
     def electric
        @electricTariff =  12.95
        puts 'сума до сплати за електрику становить: '+@electric * electricTariff+' грн'
     end
+ end 
 
-class Gas
+ class Gas
 
  def gas
     gasTariff =  7.99
